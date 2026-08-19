@@ -35,6 +35,7 @@ public class Aula03 {  // chaves delimitam um ESCOPO
         // + serve para concatenar o texto com o valor da variavel
         System.out.println("VC DIGITOU " + idade + " ANOS");
         
+        sc.close();
 
         /*
             comentario de bloco
