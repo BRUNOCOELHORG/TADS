@@ -8,7 +8,6 @@ public class Aula1808{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int a, b;
         
         System.out.println("");
 
