@@ -17,7 +17,25 @@ public class Exercicio17 {
 
         System.out.println("Faixa de temperatura");
         System.out.println("Digite a temperutura (graus celsius):");
-        
+        float temp = sc.nextFloat();
+
+        if(temp < 0){
+            System.out.println("TEMPERATURA: CONGELANTE!");
+
+        }else if(temp >= 0 && temp <= 15){
+            System.out.println("TEMPERATURA: FRIO!");
+            
+        }else if(temp > 15 && temp <= 25){
+            System.out.println("TEMPERATURA: AGRADAVEL!");
+            
+        }else if(temp > 25 && temp <= 35){
+            System.out.println("TEMPERATURA: QUENTE!");
+            
+        }else{
+            System.out.println("TEMPERATURA: MUITO QUENTE!");
+            
+        }
+
 
 
         sc.close();
