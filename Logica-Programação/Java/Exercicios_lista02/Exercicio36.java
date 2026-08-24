@@ -30,7 +30,7 @@ public class Exercicio36 {
             System.out.println("Codigo INVALIDO!");
         }else if(quantidade <= 0){
             System.out.println("Quantidade INVALIDA!");
-        }
+        }else{
         if(pedido.equals("1")){
             valor = 25f;
         }else if(pedido.equals("2")){
@@ -45,7 +45,7 @@ public class Exercicio36 {
 
         float desconto = 0;
 
-        if(!cupom.equals("S") && cupom.equals("N")){
+        if(!cupom.equals("S") || cupom.equals("N")){
             System.out.println("Cupom INVALIDO!");
         }else{
         if(cupom.equals("S")){
@@ -54,7 +54,7 @@ public class Exercicio36 {
             }
         }
     
-    }
+    }}
 
 
         sc.close();
