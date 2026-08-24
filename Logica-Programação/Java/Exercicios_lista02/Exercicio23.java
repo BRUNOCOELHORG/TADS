@@ -19,10 +19,29 @@ public class Exercicio23 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingresso de cinema");
-        System.out.println("");
+        System.out.println("Informe a sua IDADE");
+        int idade = sc.nextInt();
+        System.out.println("Você é estudante: \nS = Sim \nN = Não");
+        String estudante = sc.next();
+        System.out.println("Valor do ingresso");
+        float valorIngresso = sc.nextFloat();
+        float percentual = 1, valorFinal = 0;
 
+        if(!estudante.equals("S") && !estudante.equals("N")){
+            System.out.println("Dados digitados são INVALIDOS!");
+        }else if(idade < 0){
+            System.out.println("Dados digitados são INVALIDOS!");
+        }else{
+            if(estudante.equals("S")){
+                percentual = 0.5f;
+            }
+             if(idade < 12 || idade >= 60){
+                percentual = 0.5f;
+            }
+                valorFinal = valorIngresso * percentual;
 
+            System.out.println("Valor final: " + valorFinal);
+        }
         sc.close();
-    }
-    
+    }  
 }
