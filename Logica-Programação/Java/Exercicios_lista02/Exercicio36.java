@@ -43,17 +43,22 @@ public class Exercicio36 {
         System.out.println("Cliente possui cupom: \nS =SIM \nN = NÂO");
         String cupom = sc.next().toUpperCase();
 
-        float desconto = 0;
+        float desconto = 0, valorDesconto = 0, valorFinal = 0;
 
-        if(!cupom.equals("S") || cupom.equals("N")){
+        if(!cupom.equals("S") && !cupom.equals("N")){
             System.out.println("Cupom INVALIDO!");
+            System.out.printf("Valor total: R$ %.2f\n", valorPedido);
         }else{
         if(cupom.equals("S")){
             if(valorPedido > 50){
                 desconto = .10f;
             }
+            valorDesconto = valorPedido * desconto;
         }
-    
+        valorFinal = valorPedido - valorDesconto;
+
+        System.out.printf("Desconto: R$ %.2f\n", valorDesconto);
+        System.out.printf("Valor total: R$ %.2f\n", valorFinal);
     }}
 
 
