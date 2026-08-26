@@ -8,7 +8,7 @@ Para manter o exercício dentro do conteúdo estudado, realize os cálculos util
 
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class Exercicio04{
   public static void main(String[] args) {
 
     System.out.println("Por favor, digite um número inteiro: ");

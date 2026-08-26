@@ -14,6 +14,6 @@ public class Aula1808{
         
 
 
-
+        sc.close();
     }
 }

@@ -9,7 +9,7 @@ a metade do número
 
 import java.util.Scanner;
 
-public class Exercicio02 {
+public class Exercicio02{
   public static void main(String[] args) {
 
     System.out.println("Por favor, digite um número real: ");
