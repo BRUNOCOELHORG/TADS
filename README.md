@@ -6,7 +6,7 @@ Estudante de Tecnólogo em Análise e Desenvolvimento de Sistemas (IFRS), em tra
 
 - 🎓 Cursando ADS no IFRS (presencial, noturno)
 - 💻 Aprendendo lógica de programação e me aprofundando em desenvolvimento de sistemas
-- 📂 Aqui você encontra os exercícios e projetos que venho desenvolvendo ao longo do curso: [exercicios-ads](https://https://github.com/BRUNOCOELHORG/TADS/tree/main/Logica-Programa%C3%A7%C3%A3o/Java)
+- 📂 Aqui você encontra os exercícios e projetos que venho desenvolvendo ao longo do curso: [exercicios-ads](https://github.com/BRUNOCOELHORG/TADS/tree/main/Logica-Programa%C3%A7%C3%A3o/Java)
 - 🔗 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/bruno-coelho-852993425)
 
 ## Sobre mim
