@@ -18,13 +18,21 @@ public class Exercicio04 {
         if(n <= 0){
             System.out.println("Numero informado esta INCORRETO");
         }else{
+            int contador = 0; 
+            while (n >= 1) {
 
-            
+                if(n % 2 == 0){
+                    System.out.println(n +" é par.");
+                    contador = contador + 1;
+                }
 
+                n--;
+            }
+            System.out.printf("Foram encontrados %d numeros pares.", contador);
             
             }
            
-        }
+        
 
 
     sc.close();
