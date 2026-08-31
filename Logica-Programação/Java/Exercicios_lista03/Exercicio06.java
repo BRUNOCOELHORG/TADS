@@ -12,7 +12,7 @@ O valor de n deve ser maior que zero.
 
 import java.util.Scanner;
 
-public class Ex06L03 {
+public class Exercicio06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
