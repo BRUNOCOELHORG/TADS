@@ -22,7 +22,7 @@ public class Exercicio31 {
         System.out.println("Informe o valor da compra:");
         float valorCompra = sc.nextFloat();
         System.out.println("Informe o cupom:");
-        String cupom = sc.next();
+        String cupom = sc.next().toUpperCase();
 
             float desconto=0, valorDesconto = 0, valorTotal = 0;
             if(!cupom.equals("VALE10") && !cupom.equals("VALE20")){
